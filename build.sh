@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION=3.5.1.p0.0.1
+VERSION=3.6.3.p0.0.1
 
 echo "Create target directory"
 mkdir -p ./target

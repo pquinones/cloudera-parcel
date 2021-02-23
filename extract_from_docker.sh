@@ -2,11 +2,11 @@
 
 set -e
 
-PARCEL_VERSION=${1:-3.4.1.p0.1}
+PARCEL_VERSION=${1:-3.6.3.p0.1}
 DISTRIBUTION=${2:-centos}
 TARGET_OS=${3:-centos7}
 OS_VERSION=${4:-el7}
-R_VERSION=${5:-3.5.1}
+R_VERSION=${5:-3.6.3}
 ARROW_VERSION=${6:-0.12.0}
 CONDA_URI=${7:-https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh}
 PARCEL_NAME=${8:-CONDAR}
